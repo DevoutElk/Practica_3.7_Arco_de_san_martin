@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arco de San Martín</title>
 </head>
-
-<script>
-</script>
-
-
 <body>
+    <h3 id="martin" onclick="
+        document.querySelector('.rojo').removeAttribute('onmouseout'); document.querySelector('.rojo').style.color = 'red';
+        document.querySelector('.naranja').removeAttribute('onmouseout'); document.querySelector('.naranja').style.color = 'orange';
+        document.querySelector('.amarillo').removeAttribute('onmouseout'); document.querySelector('.amarillo').style.color = 'yellow';
+        document.querySelector('.verde').removeAttribute('onmouseout'); document.querySelector('.verde').style.color = 'green';
+        document.querySelector('.azul_claro').removeAttribute('onmouseout'); document.querySelector('.azul_claro').style.color = 'lightblue';
+        document.querySelector('.azul').removeAttribute('onmouseout'); document.querySelector('.azul').style.color = 'blue';
+        document.querySelector('.morado').removeAttribute('onmouseout'); document.querySelector('.morado').style.color = 'purple';
+    ">Arc de Sant Martí</h3>
 
-    <h3 id="martin">Arc de Sant Martí</h3>
-
-    <P onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">roig, red, rojo</P>
-    <p onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">taronja, orange, naranja</p>
-    <p onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'">groc, yellow, amarillo</p>
-    <p onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">verd, green, verde</p>
-    <p onmouseover="this.style.color='lightblue'" onmouseout="this.style.color='black'">blau clar, light blue, azul claro</p>
-    <p onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'">blau, blue, azul</p>
-    <p onmouseover="this.style.color='purple'" onmouseout="this.style.color='black'">morat, purple, morado</p>
+    <span class="rojo" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">roig, red, rojo</span>
+    <br>
+    <br>
+    <span class="naranja" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">taronja, orange, naranja</span>
+    <br>
+    <br>
+    <span class="amarillo" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'">groc, yellow, amarillo</span>
+    <br>
+    <br>
+    <span class="verde" onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">verd, green, verde</span>
+    <br>
+    <br>
+    <span class="azul_claro" onmouseover="this.style.color='lightblue'" onmouseout="this.style.color='black'">blau clar, light blue, azul claro</span>
+    <br>
+    <br>
+    <span class="azul" onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'">blau, blue, azul</span>
+    <br>
+    <br>
+    <span class="morado" onmouseover="this.style.color='purple'" onmouseout="this.style.color='black'">morat, purple, morado</span>
 
 </body>
 </html>
-
-<link rel="stylesheet" href="style.css">
-
